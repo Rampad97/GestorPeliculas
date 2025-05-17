@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
         GestorPelicula gestor = new GestorPelicula();
 
+        System.out.println("GestorPeliculas");
+
         // Crear peliculas
         Pelicula pelicula1 = new Pelicula(1, "Matrix", true);
         Pelicula pelicula2 = new Pelicula(2, "Titanic", true);

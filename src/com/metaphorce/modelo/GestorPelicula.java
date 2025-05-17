@@ -16,6 +16,7 @@ public class GestorPelicula {
     }
 
     public boolean eliminarPelicula(int id) {
+        System.out.println("Metodo para eliminar");
         return peliculas.removeIf(pelicula -> pelicula.getId() == id);
         /* removeIf(...) Elimina todas las coincidenicas (No es el caso si el ID es unico).
             Retorna en boolean (true o false) ya que permite a la clase Main saber si la opración fue exitosa
