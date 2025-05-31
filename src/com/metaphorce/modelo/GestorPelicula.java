@@ -58,4 +58,13 @@ public class GestorPelicula {
         }
         return false;
     }
+
+    public Pelicula buscarPorNombre(String nombre) {
+        for (Pelicula pelicula : peliculas) {
+            if (pelicula.getNombre().equals(nombre)) {
+                return pelicula;
+            }
+        }
+        return null;
+    }
 }
