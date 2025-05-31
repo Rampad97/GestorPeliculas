@@ -60,6 +60,8 @@ public class GestorPelicula {
     }
 
     public Pelicula buscarPorNombre(String nombre) {
+        System.out.println("Fernanda");
+        System.out.println("Leonardo Galicia");
         for (Pelicula pelicula : peliculas) {
             if (nombre.equals(pelicula.getNombre())) {
                 return pelicula;
